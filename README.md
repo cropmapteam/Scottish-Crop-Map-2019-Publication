@@ -9,7 +9,7 @@ The `geoprocessing` branch shows the code used to:
 * Validate results from these zonal statistics
 * Group zonal statistics into six-day blocks
 
-This code cannot be run as-is: it requires access to satellite images as well as additional files such as field shapefiles and image metadata, which we cannot share in this repository. For more information on this process, please get in touch at the above email address. The output dataset can be provided upon request (this is needed to run the random forest model code).
+This code cannot be run as-is: it requires access to satellite images as well as additional files such as field shapefiles and image metadata, which we cannot share in this repository. For more information on this process, please get in touch at agric.stats@gov.scot. The output dataset can be provided upon request (this is needed to run the random forest model code).
 
 Earlier versions of some of these scripts, as well as an additional README file, is provided in our [Scotland-crop-map](https://github.com/cropmapteam/Scotland-crop-map) repository (in collaboration with EDINA).
 
