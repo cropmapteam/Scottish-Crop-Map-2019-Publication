@@ -13,7 +13,7 @@ This code cannot be run as-is: it requires access to satellite images as well as
 
 Earlier versions of some of these scripts, as well as an additional README file, is provided in our [Scotland-crop-map](https://github.com/cropmapteam/Scotland-crop-map) repository (in collaboration with EDINA).
 
-## Generate zonal statistics
+## Generating zonal statistics
 The `gen_image_md.py`, `gen_zonal_stats.py`, `mp_gen_zonal_stats.py`, and `validation.py` scripts are used to generate image metadata, load and write zonal statistics, and validate results. For more information on these script and the process, see the README in this branch: https://github.com/cropmapteam/Scotland-crop-map/tree/geoprocessing/zonal_experiments.
 
 ## Generating dates and pass lookups
