@@ -20,9 +20,6 @@ library(readr)            # for saving datasets
 # Also read in ground truth dataset.
 zonal_reduced <- read.csv("src_zonal_stats_combined_over1300m2_single_csv_by_pass.csv", header = TRUE, na.strings = NA)
 
-# Removing NA's, otherwise the model won't work
-zonal_reduced <- zonal_reduced[complete.cases(zonal_reduced), ]
-
 # Convert LCTYPE to factor
 zonal_reduced$LCTYPE <- as.factor(zonal_reduced$LCTYPE)
 
