@@ -30,4 +30,4 @@ The `random_forest` branch shows code used to create the random forest model and
 * Random Forest Modelling - code to create the model
 * Model Improvements & Variable Selection - comments about changes made to the model and code used for several different selection methods 
 * Running Code on Reduced Zonal Data - code to run the model on the reduced dataset 
-* Probability Cut-Off on Predictions - code to deal with overestimation by using class probabilities 
+* Probability Cut-Off on Predictions - code to deal with overestimation by using class probabilities on model predictions
