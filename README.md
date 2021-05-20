@@ -14,7 +14,7 @@ This code cannot be run as-is: it requires access to satellite images as well as
 Earlier versions of some of these scripts, as well as an additional README file, is provided in our [Scotland-crop-map](https://github.com/cropmapteam/Scotland-crop-map) repository (in collaboration with EDINA).
 
 ## Generating zonal statistics
-The `gen_image_md.py`, `gen_zonal_stats.py`, `mp_gen_zonal_stats.py`, and `validation.py` scripts are used to generate image metadata, load and write zonal statistics, and validate results. For more information on these script and the process, see the README in this branch: https://github.com/cropmapteam/Scotland-crop-map/tree/geoprocessing/zonal_experiments.
+The `gen_image_md.py`, `gen_zonal_stats.py`, `mp_gen_zonal_stats.py`, and `validation.py` scripts are used to generate image metadata, load and write zonal statistics, and validate results. For more information on these script and the process, see the README in this repository: https://github.com/cropmapteam/Scotland-crop-map/tree/geoprocessing/zonal_experiments.
 
 ## Generating dates and pass lookups
 The `gen_dates.R` script is used to generate a list of dates to validate results against in the `validation.py` script. The `gen_pass_lookup.R` script is used to generate a lookup of dates and 'passes' based on the Sentinel-1 footprint for Scotland (in 2019). These passes are six-day blocks where a given field is likely to have had at least one image taken by either the ascending or descending satellite (with the exception of some islands).
