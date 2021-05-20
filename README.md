@@ -18,7 +18,7 @@ The `gen_image_md.py`, `gen_zonal_stats.py`, `mp_gen_zonal_stats.py`, and `valid
 
 These scripts need the following files:
 
-* A shapefile with the required geometries you want to generate zonal statistics for. these need to be sufficiently small to be captured in one or more images.
+* A shapefile with the required geometries you want to generate zonal statistics for. These need to be sufficiently small to be captured in one or more images.
 * Access to satellite images.
 
 ## Generating dates and pass lookups
